@@ -39,7 +39,10 @@ body {
 }
 
 .text-gray {
-    color: #C3BEBC;
+    color: #464646;
+}
+.text-gray-light {
+    color: #464646;
 }
 
 
