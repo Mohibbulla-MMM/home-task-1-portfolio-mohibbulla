@@ -155,5 +155,31 @@
 
 
 
+/* -------------------------------------------------------------------------------- */
+/* ----------------------------------------section 2------------------------------------- */
+/* -------------------------------------------------------------------------------- */
 
 
+.mm-section-3 {
+    padding: 0 230px;
+    color: #464646;
+}
+
+.mm-sec-3-box {
+    padding: 150px;
+    border-radius: 20px;
+}
+
+.mm-sec-3-box h1 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    color: black;
+}
+
+.mm-sec-3-box p {
+    font-size: 18px;
+    line-height: 1.3em;
+    text-align: center;
+}
