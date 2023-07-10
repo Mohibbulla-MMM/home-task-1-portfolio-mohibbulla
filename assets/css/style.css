@@ -156,7 +156,7 @@
 
 
 /* ----------------------------------------------------------------------- */
-/* ------------------------------------section 2------------------------------ */
+/* ------------------------------------section 3------------------------------ */
 /* ----------------------------------------------------------------------- */
 
 
@@ -190,13 +190,15 @@
     flex-basis: 25%;
     /* padding: 10px; */
 }
+
 .mm-sec-3-card-item h2 {
-   font-size: 20px;
-   margin: 30px 0;
+    font-size: 20px;
+    margin: 30px 0;
 }
+
 .mm-sec-3-card-item p {
-text-align: left;
-padding: 0;
+    text-align: left;
+    padding: 0;
 }
 
 
@@ -206,3 +208,73 @@ padding: 0;
     border-radius: 10px;
     margin: 10px;
 }
+
+/* ----------------------------------------------------------------------- */
+/* ------------------------------------section 3------------------------------ */
+/* ----------------------------------------------------------------------- */
+
+
+.mm-section-4 {
+    padding: 100px 230px;
+}
+
+.mm-section-4>h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+.mm-sec-4-parent-box {
+    width: 100%;
+    display: flex;
+}
+
+.mm-sec-4-box {
+    flex-basis: 50%;
+}
+
+.mm-sec-4-box .mm-sec-4-inner-item {
+    padding: 10px 8px;
+}
+
+.mm-sec-4-inner-item .border-bottom-1px {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    border-top: 1px solid #cfcfcf;
+}
+
+
+/* ----------card items ----------- */
+.mm-sec-4-inner-item h2 {
+    font-size: 30px;
+    color: #464646;
+    margin-bottom: 40px;
+}
+
+.mm-sec-4-inner-item h3 {
+    font-size: 25px;
+    color: #464646;
+    margin: 10px auto;
+}
+
+.mm-sec-4-inner-item h4 {
+    font-size: 20px;
+    color: #909090;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.mm-sec-4-inner-item p {
+    font-size: 16px;
+}
+
+
+/* sec  4 btn  bottom  */
+.mm-sec-4-btn {
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
