@@ -45,7 +45,6 @@
     color: #464646;
     padding: 10px 20px;
     text-transform: capitalize;
-
     /* background-color: red; */
 }
 
@@ -86,7 +85,7 @@
 
 .hero-left p {
     font-size: 18px;
-    color: #464646;
+
 }
 
 
@@ -105,3 +104,56 @@
     margin-right: 30px;
     margin-bottom: -5px;
 }
+
+/* -------------------------------------------------------------------------------- */
+/* ----------------------------------------section 2------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.mm-section-2 {
+    padding: 150px 230px;
+    color: #464646;
+}
+
+.mm-sec-2-box {
+    padding: 150px;
+    border-radius: 20px;
+}
+
+.mm-sec-2-box h1 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    color: black;
+}
+
+.mm-sec-2-box p {
+    font-size: 18px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+/* -------------section 2 bottom  ---------*/
+
+.mm-sec-2-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mm-sec-2-bttm-item {
+    padding: 3px;
+}
+
+.mm-sec-2-bttm-item p {
+    font-size: 20px;
+}
+
+.mm-sec-2-bttm-item h2 {
+    font-size: 20px;
+}
+
+
+
+
+
+

@@ -9,10 +9,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
 
+p{
+    color: #909090;
+}
 
 .container {
     width: 100%;
@@ -49,8 +53,10 @@ a {
 .text-gray {
     color: #464646;
 }
+
 .text-gray-light {
-    color: #464646;
+    color: #909090;
+
 }
 
 .text-white {
