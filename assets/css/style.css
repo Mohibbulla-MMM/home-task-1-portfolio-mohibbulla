@@ -36,6 +36,7 @@
 .mm-nav ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 .mm-nav ul li a {
@@ -168,4 +169,3 @@
     margin-right: 30px;
     margin-bottom: -5px;
 }
-
