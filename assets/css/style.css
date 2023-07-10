@@ -10,8 +10,14 @@
     background-repeat: no-repeat;
     background-size: auto, contain;
     background-position: bottom right, left bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.mm-col {
+    flex-basis: 100%;
+}
 
 /* nav bar  */
 .mm-nav {
@@ -41,3 +47,125 @@
 
     /* background-color: red; */
 }
+
+
+/* --------------------------hero section -------------------------- */
+
+.hero-section {
+    margin-top: auto;
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #464646; */
+
+}
+
+.hero-col {
+    flex-basis: 50%;
+}
+
+/* hero------------------ left part--------------  */
+.hero-left {
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero-left h2 {
+    font-size: 45px;
+    color: #464646;
+}
+
+.hero-left h1 {
+    font-size: 85px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #464646;
+}
+
+/* --------------------- hero contacts button --------------------- */
+.mm-hero-btn {
+    display: inline-block;
+    border: 1px solid #FD6E0A;
+    transition: all 0.4s;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mm-hero-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    z-index: -1;
+}
+
+.download-cv-btn {
+    color: white;
+}
+
+.download-cv-btn:hover {
+    color: #FD6E0A;
+}
+
+.download-cv-btn::before {
+    transform: scaleX(1);
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+
+.download-cv-btn:hover:before {
+    transform: scaleX(0);
+}
+
+/* contact me btn  */
+.contact-me-btn {
+    /* color: white; */
+    color: #FD6E0A;
+}
+
+.contact-me-btn:hover {
+    color: #fff;
+}
+
+.contact-me-btn::before {
+    transform: scaleX(0);
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    /* transition-timing-function: cubic-bezier(-0.5,-1.6, -0.4, -0.7); */
+}
+
+.contact-me-btn:hover:before {
+    transform: scaleX(1);
+}
+
+/* -----------hero right part---------------  */
+.hero-right {
+    color: #FFf;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.hero-right img {
+    display: inline-block;
+    width: 70%;
+    margin-right: 30px;
+    margin-bottom: -5px;
+}
+
