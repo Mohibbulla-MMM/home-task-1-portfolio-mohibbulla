@@ -43,11 +43,37 @@
     text-decoration: none;
     font-size: 20px;
     color: #464646;
-    padding: 10px 20px;
+    padding: 10px ;
+    margin: 0 10px;
     text-transform: capitalize;
     /* background-color: red; */
+    font-weight: bold;
+    transition: all 0.4s;
+    position: relative;
 }
 
+.mm-nav ul li .nav-link-btm:hover {
+    color: #000000;
+}
+
+.mm-nav ul li .nav-link-btm::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #FD6E0A;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: 0.5s;
+
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.mm-nav ul li .nav-link-btm:hover:before {
+    transform: scaleX(1);
+}
 
 /* --------------------------hero section -------------------------- */
 
@@ -350,5 +376,3 @@
     background-color: #fff;
     color: #FD6E0A;
 }
-
-
